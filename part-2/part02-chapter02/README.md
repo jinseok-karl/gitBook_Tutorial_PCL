@@ -39,7 +39,7 @@ PCL에서는 옥트리를 구조체를 생성할때 먼저 1장에서 다룬 Vox
 PCL에서는 Octree 구조체를 이용하여서 총 3가지의 포인트 검색 방법을 제공하고 있습니다.
 
 * `octree.voxelSearch` : 사용자 정의 기준점이 속해 있는 Voxel내 모든 점군을 검색 합니다.
-* \`octree.nearestKSearch: 사용자 정의 기준점에서 가까운 N\(사용자 정의\)개의 점들을 검색 합니다.
+* `octree.nearestKSearch`: 사용자 정의 기준점에서 가까운 N\(사용자 정의\)개의 점들을 검색 합니다.
 * `octree.radiusSearch` : 사용자 정의 기준 기준점에서 반경\(사용자 정의\)내 점들을 검색 합니다.
 
 결과 값은 포인트의 x,y,z좌표가 아니라 인덱스 정보입니다. 그리고 `nearestKSearch`와 `radiusSearch`는 기준점까지의 거리 정보도 같이 반환 입니다.
